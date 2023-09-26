@@ -1,0 +1,141 @@
+#Produits {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#Produits td,
+#Produits th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#Produits tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#Produits tr:hover {
+    background-color: #ddd;
+}
+
+#Produits th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+}
+
+#Produits>thead>tr>td {
+    font-weight: bold;
+    text-align: center;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* CSS */
+
+.delete_button {
+    background-color: #da3c34;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    color: #fff;
+    cursor: pointer;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+
+.a_button {
+    background-color: #9066c7;
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 16px;
+    border: 1px solid rgba(27, 31, 35, .15);
+    cursor: pointer;
+    font-size: 14px;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-weight: 600;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+}
+
+.ajouter_button {
+    background-color: #37a04a;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    color: #fff;
+    cursor: pointer;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+
+.movement_button {
+    background-color: #fac73c;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    color: #fff;
+    cursor: pointer;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.pagination .active a {
+    background-color: #ddd;
+}
